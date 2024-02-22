@@ -11,7 +11,7 @@ export default class Header extends Component {
       <div className='container-fluid'>
         <Link className='navbar-brand' id='logo' to="/home"><img src='./gallery/logo.png' alt="logo"/></Link>
         <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
-          <span><img className='navbar-toggler-icon' src='./gallery/bars.png' alt='bars'/></span>
+          <span><img src='./gallery/bars.png' alt='bars' width="40"/></span>
         </button>
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
